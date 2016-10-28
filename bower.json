@@ -1,0 +1,17 @@
+{
+  "name": "watson-profiling",
+  "authors": [
+    "IBM"
+  ],
+  "license": "Apache-2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/vendor"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
