@@ -35,7 +35,7 @@ export default class Posts extends Component {
   }
 
   render() {
-    const { selectedSubreddit, posts, isFetching, lastUpdated } = this.props
+    const { posts, isFetching, lastUpdated } = this.props
 
     return (
       <div>
