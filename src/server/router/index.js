@@ -4,6 +4,6 @@ import api from './routes/api';
 
 export default function (app) {
   // Routes
-  app.use('/', home);
   app.use('/api', api);
+  app.use('/', home);
 }
